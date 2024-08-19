@@ -9,8 +9,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 export const HeaderNavbar = () => {
-    const { totalItems } = useCart();
-
   return (
     <>
         
