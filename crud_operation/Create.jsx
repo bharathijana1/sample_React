@@ -4,6 +4,8 @@ import { Button, Checkbox, Form } from 'semantic-ui-react';
 import LoadingBar from 'react-top-loading-bar';
 import axios from 'axios';
 
+// npm i react-top-loading-bar
+
 export default function Create() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
