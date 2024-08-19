@@ -41,7 +41,7 @@ export const HeaderNavbar = () => {
     <Navbar expand="lg" className="bg-dark">
       <Container>
         <Navbar.Brand href="#home" className='text-white'>ShoppingMart</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='text-white bg-white' />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">
