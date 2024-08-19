@@ -3,6 +3,10 @@ import { Button, Table } from 'semantic-ui-react'
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
+// npm i axios
+// npm i semantic-ui-react
+// npm i react-router-dom
+
 export default function Read() {
   const [APIData, setAPIData] = useState([]);
 
