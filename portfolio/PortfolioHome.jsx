@@ -21,6 +21,10 @@ export const PortfolioHome = () => {
         <div className="button">
             <button className="btn btn-info w-25 p-2">Hire me</button>
         </div>
+        <div className="button">
+          <a href=".src/portfolio/images/Bharathi_Resume.pdf" className="btn btn-info w-25 p-2 mt-2" download target='_blank'>Download CV</a>
+              
+        </div>
         </div>
 
         </Col>
